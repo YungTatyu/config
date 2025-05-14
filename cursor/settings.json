@@ -61,6 +61,10 @@
         "before": ["<leader>", "|"],
         "commands": ["workbench.action.splitEditorRight"]
       },
+      {
+        "before": ["<leader>", "g"],
+        "commands": ["workbench.view.scm"]
+      },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
