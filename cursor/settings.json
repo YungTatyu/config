@@ -18,10 +18,6 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
       {
-        "before": ["<C-n>"],
-        "commands": [":nohl"]
-      },
-      {
         "before": ["K"],
         "commands": ["editor.action.showHover"]
       },
@@ -68,6 +64,10 @@
       {
         "before": ["<leader>", "n", "o"],
         "commands": [":nohl"]
+      },
+      {
+        "before": ["<Leader>", ":"],
+        "commands": [{ "command": "workbench.action.showCommands" }]
       },
     ],
     "vim.leader": "<space>",
