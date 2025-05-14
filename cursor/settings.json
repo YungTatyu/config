@@ -1,3 +1,4 @@
+
 {
     "window.commandCenter": true,
     "editor.fontSize": 16,
@@ -37,6 +38,22 @@
         "before": ["<leader>", "e"],
         "commands": ["workbench.view.explorer"]
       },
+      {
+        "before": ["<leader>", "<leader>"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+      {
+        "before": ["<leader>", "s", "g"],
+        "commands": ["workbench.action.findInFiles"]
+      },
+      {
+        "before": ["<leader>", "c", "r"],
+        "commands": ["editor.action.rename"]
+      },
+      {
+        "before": ["<leader>", "s", "r"],
+        "commands": ["workbench.action.replaceInFiles"]
+      },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
@@ -53,3 +70,4 @@
       "vscodevim.vim": 1
     }
 }
+
