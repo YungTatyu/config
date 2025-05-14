@@ -108,4 +108,14 @@
         "command": "editor.action.scrollRightHover",
         "when": "editorHoverFocused"
     },
+    {
+        "key": "space space",
+        "command": "workbench.action.quickOpen",
+        "when": "!inputFocus"
+    },
+    {
+        "key": "space s g",
+        "command": "workbench.action.findInFiles",
+        "when": "!inputFocus"
+    },
 ]
