@@ -65,6 +65,10 @@
         "before": ["<leader>", "g"],
         "commands": ["workbench.view.scm"]
       },
+      {
+        "before": ["<leader>", "n", "o"],
+        "commands": [":nohl"]
+      },
     ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
