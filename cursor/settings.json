@@ -1,0 +1,55 @@
+{
+    "window.commandCenter": true,
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+
+    // vim settings
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.ignorecase": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["editor.action.showHover"]
+      },
+      {
+        "before": ["L"],
+        "commands": ["workbench.action.nextEditor"]
+      },
+      {
+        "before": ["H"],
+        "commands": ["workbench.action.previousEditor"]
+      },
+      {
+        "before": ["<leader>", "e"],
+        "commands": ["workbench.view.explorer"]
+      },
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false,
+      "<C-h>": false,
+      "<C-j>": false,
+      "<C-k>": false,
+      "<C-l>": false,
+    },
+
+    // To improve performance
+    "extensions.experimental.affinity": {
+      "vscodevim.vim": 1
+    }
+}
