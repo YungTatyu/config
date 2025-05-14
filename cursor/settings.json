@@ -25,6 +25,10 @@
         "commands": ["editor.action.showHover"]
       },
       {
+        "before": ["K", "K"],
+        "commands": ["editor.action.showDefinitionPreviewHover"]
+      },
+      {
         "before": ["L"],
         "commands": ["workbench.action.nextEditor"]
       },
