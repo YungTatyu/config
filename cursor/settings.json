@@ -2,6 +2,8 @@
     "window.commandCenter": true,
     "editor.fontSize": 16,
     "editor.wordWrap": "on",
+    "editor.lineNumbers": "relative",
+    "editor.cursorSurroundingLines": 8,
 
     // vim settings
     "vim.easymotion": true,
@@ -10,6 +12,7 @@
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
+    "vim.highlightedyank.enable": true,
     "vim.insertModeKeyBindings": [
       {
         "before": ["j", "j"],
