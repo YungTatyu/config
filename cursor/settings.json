@@ -77,6 +77,12 @@
         "commands": [{ "command": "workbench.action.showCommands" }]
       },
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+      {
+        "before": ["p"],
+        "after": ["P"]
+      }
+    ],
     "vim.leader": "<space>",
     "vim.handleKeys": {
       "<C-a>": false,
