@@ -76,6 +76,14 @@
         "before": ["<Leader>", ":"],
         "commands": [{ "command": "workbench.action.showCommands" }]
       },
+      {
+        "before": ["<leader>", "b", "d"],
+        "commands": ["workbench.action.closeActiveEditor"]
+      },
+      {
+        "before": ["<leader>", "b", "o"],
+        "commands": ["workbench.action.closeOtherEditors"]
+      },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
       {
