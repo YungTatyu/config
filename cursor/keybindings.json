@@ -111,7 +111,7 @@
     {
         "key": "space space",
         "command": "workbench.action.quickOpen",
-        "when": "!inputFocus"
+        "when": "editorTextFocus && !inputFocus"
     },
     {
         "key": "space s g",
