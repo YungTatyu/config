@@ -41,6 +41,10 @@
         "commands": ["workbench.view.explorer"]
       },
       {
+        "before": ["<leader>", "s", "f"],
+        "commands": ["workbench.action.quickOpen"]
+      },
+      {
         "before": ["<leader>", "<leader>"],
         "commands": ["workbench.action.quickOpen"]
       },
