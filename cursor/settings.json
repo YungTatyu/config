@@ -49,6 +49,18 @@
         "commands": ["workbench.action.quickOpen"]
       },
       {
+        "before": ["<leader>", "tab", "tab"],
+        "commands": ["workbench.action.files.newUntitledFile"]
+      },
+      {
+        "before": ["<leader>", "tab", "f"],
+        "commands": ["workbench.action.openEditorAtIndex1"]
+      },
+      {
+        "before": ["<leader>", "tab", "l"],
+        "commands": ["workbench.action.lastEditorInGroup"]
+      },
+      {
         "before": ["<leader>", "s", "g"],
         "commands": ["workbench.action.findInFiles"]
       },
